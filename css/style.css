@@ -1,0 +1,228 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#logo{
+    width: 100px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    z-index: 100;
+    
+
+}
+#nav-links{
+    display: flex;
+    column-gap: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    
+    
+}
+#hero{
+    background-image: url(../assets/images/foodbg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+#hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#subtext-one{
+    font-size: 60px;
+}
+#subtext-two{
+    font-size: 100px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+#menu-button{
+    color: red;
+    background-color: white;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+#menu-button:hover{
+    background-color: red;
+    color: white;
+}
+#foodgb2{
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+}
+
+.sub-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.sub-header span:nth-last-child(2){
+    font-size: 30px;
+    color: red;
+
+}
+.sub-header span:nth-last-child(1){
+    font-size: 30px;
+    color: black;
+}
+#about-link{
+    display: flex;
+    align-items: center;
+}
+#para-text{
+    display: flex;
+    align-items: center;
+}
+#discover{
+    background-image: url(../assets/images/discoverbg.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-attachment:fixed;
+}
+#discover-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#menu{
+    background-color: #F5F2EC;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    row-gap: 40px;
+}
+#sub-text{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+.grid-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+width: 80vw;
+}
+.grid-container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+.group1{
+grid-row-start: 1;
+grid-row-end: 3;
+height: 520px;
+}
+.group2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 250px;
+}
+.group3{
+    height: 250px;
+}
+
+
+#video-sec{
+width: 100vw;
+height: 60vh;
+position: relative;
+margin-bottom: 100px;
+}
+#video{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+#video-overlay{
+position: absolute;
+top: 0;
+left: 0;
+background-color:rgba(0, 0, 0, 0.4);
+width: inherit;
+height: inherit;
+}
+
+#video-overlay .sub-header span:last-child{
+    color: white;
+}
+#reservation{
+    background-color: #F5F2EC;
+    padding: 120px;
+    display: flex;
+    
+}
+#reservation img{
+    width: 40%;
+    border-radius: 15px;
+}
+
+#input-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#input-grid input{
+   width: 300px; 
+   height: 40px;
+   border-radius: 10px;
+   border-color: #F5F2EC;
+}
